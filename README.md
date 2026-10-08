@@ -1,98 +1,99 @@
-# 👋 Hi there! Welcome to my GitHub profile!
+# Hi, I'm Soro Falibeta 👋
 
-I am **Soro Falibeta**, a developer passionate about modern technologies and specialized in **Flutter**. With solid experience in mobile technologies and data science, I am constantly learning and contributing to innovative projects. My goal is to specialize in **data engenering**, mastering **flutter** and its derivatives to be proficient with more technologies.
+**Junior Data Scientist** based in Abidjan, Côte d'Ivoire — currently in the **AI & Machine Learning** program at **Orange Digital Center** and in a Master's in Mobiquity, Big Data & Systems at **ESATIC × Université Côte d'Azur**.
+
+I like turning messy data into models people can trust: careful validation, no data leakage, and results that hold up on new data.
+
+🏆 **National champion — Data Tour 2026 (Côte d'Ivoire)** with team OUTLIERS, Mobile Money fraud detection.
 
 ---
 
-## 🚀 Skills & Technologies
+## 🔭 Right now
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+- 🎓 **AI & Machine Learning program** at Orange Digital Center (since July 2026)
+- 🎓 **Master MBDS** — Mobiquity, Big Data & Systems, ESATIC × Université Côte d'Azur (2024 – present)
+- 🔎 Open to **internships, work-study and junior roles** in Data Science / AI
+
+---
+
+## 🌟 Featured projects
+
+### 🕵️ [Mobile Money Fraud Detection](https://github.com/donsfak/Portofolio/blob/main/case-studies/data-tour-2026-fraude-mobile-money.md) — 1st place, Data Tour 2026
+Fraud detection on **~1.3M transactions** (~11% fraud, metric: PR-AUC) where the test set lay *in the future*.
+- Multi-window **temporal validation** instead of random cross-validation
+- Leak-free **out-of-fold target encoding** on account identity
+- Ensemble of **45 gradient boosting models** (LightGBM, XGBoost, CatBoost + seed averaging)
+- Bootstrap of the score to separate real improvements from noise
+
+`Python` `LightGBM` `XGBoost` `CatBoost`
+
+### 👤 [FaceGuard](https://github.com/donsfak/FaceGuard) — real-time face recognition
+Webcam access control: detects every face, recognizes enrolled people, answers "Unknown" otherwise.
+- **SCRFD** detection → **ArcFace** 512-D embeddings → **FAISS** k-NN vote + temporal smoothing
+- Evaluation: **0 false positives on 109 unknown faces**, 97/97 leave-one-out, **EER 0.10%**
+- **FastAPI** web platform: guided enrollment, live scanner, attendance dashboard (Supabase optional), Docker
+
+`Python` `OpenCV` `InsightFace` `FAISS` `FastAPI` `Docker`
+
+### 📊 [Data Science Portfolio — ODC](https://github.com/donsfak/data-science-portfolio)
+End-to-end projects from the Orange Digital Center program: cleaning, EDA, modeling, recommendations.
+- **Dropout risk prediction** — classification, best AUC-ROC **0.874** (logistic regression), catches 81% of real dropouts
+- **Student habits & performance** — regression + classification, R² ≈ **0.87** (Random Forest), bias-variance diagnosis
+- **AI / Data Science salaries** analysis
+
+`Python` `Pandas` `Scikit-learn` `Matplotlib` `Seaborn`
+
+---
+
+## 🧰 Tech stack
+
+**Data & ML**
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
+  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" />
 </p>
 
----
+**Data storage, BI & tooling**
 
-## 🌱 Featured Projects
+<p>
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge" alt="Power BI" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+</p>
 
-###  **Uber clone**
-- User Authentication (2024).
-- Interactive Carte.
-- Réservation de Trajets.
-- Système de Géolocalisation en Temps Réel.
-- Profils Utilisateurs et Chauffeurs.
-- Paiement.
-
-### ✅ **to do app**
-- Task management and tracking mobile application built with Flutter (2024).
-- Implemented real-time sync and cloud storage with SqfLite.
-
-
-
----
-
-## 📜 Certifications
-
-- **pandas & python Certification** - udemy (mars 2024)
-- **SQL for Data Analysis** - udemy
-
----
-
-## 🎨 Open Source Contributions
-
-I regularly contribute to open-source projects and enjoy sharing knowledge with the community, especially on **Flutter** and **Git**.
-
----
-
-## 🌐 Publications
-
-I often share articles and insights on **Twitter** and **LinkedIn**. Feel free to follow me to stay updated on my latest activities!
+*Also comfortable with:* Flutter / Dart, React, TypeScript, Firebase — from my earlier app projects ([Weather Insights](https://github.com/donsfak/weather_insights), [To Do App](https://github.com/donsfak/Trackers_app)).
 
 ---
 
 ## 💼 Experience
 
-I have worked on numerous projects as a **freelancer sometimes**, as well as enterprise applications, particularly in **mobile development with Flutter**.
+**GNOC IN VAS Engineer — Huawei Technologies** · *Jul – Dec 2024*
+Incident and ticket management, customer complaint handling, and monitoring of Orange Group AMEA platforms (IN/VAS) in a 24/7 international environment.
 
 ---
 
-## 🏗️ Current Project
+## 📜 Certifications
 
-I am currently working on a **delivery food app**, leveraging **Flutter** and **payement technologies** to develop innovative solutions.
-
----
-
-## 🎮 Interests
-
-Outside of development, I enjoy **search** and **playing video games**.
-
----
-
-## 📚 Currently Learning
-
-I am actively learning **marchin learning** to deepen my expertise in the data science sector, while continuing to enhance my **Flutter** and **Python** skills.
+- **Microsoft Power BI Masterclass** — Udemy, May 2024 · [verify](https://ude.my/UC-5a81dd36-de53-423c-8732-5fc4a54e6b43)
+- **Data Analysis with Pandas and Python** — Udemy, May 2024 · [verify](https://ude.my/UC-a0c757a0-e0d8-442d-b464-686241a56f6c)
+- **SQL for Data Analysis** — Udemy
 
 ---
 
 ## 📬 Contact
 
-- **GitHub**: [Falibeta](https://github.com/donsfak)
-- **LinkedIn**: [falibetasoro](https://linkedin.com/in/falibeta-soro-8678b62a1/)
-- **Email**: falibetasoro@gmail.com
+- 🌐 **Portfolio**: [soro-falibeta-portofolio.vercel.app](https://soro-falibeta-portofolio.vercel.app)
+- 💼 **LinkedIn**: [falibeta-soro](https://www.linkedin.com/in/falibeta-soro-8678b62a1/)
+- ✉️ **Email**: falibetasoro@gmail.com
 
----
-
-🚀 Feel free to reach out to discuss projects, opportunities, or just to exchange ideas!
+Happy to talk about data science, ML projects or opportunities — feel free to reach out!
