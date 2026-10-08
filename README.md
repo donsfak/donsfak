@@ -2,7 +2,11 @@
 
 **Junior Data Scientist** based in Abidjan, Côte d'Ivoire — currently in the **AI & Machine Learning** program at **Orange Digital Center** and in a Master's in Mobiquity, Big Data & Systems at **ESATIC × Université Côte d'Azur**.
 
-I like turning messy data into models people can trust: careful validation, no data leakage, and results that hold up on new data.
+My path into data started on the operations side: at **Huawei**, I monitored Orange Group platforms across Africa and the Middle East, where I learned how much decisions depend on reliable data. I then moved fully into data science and machine learning — from exploratory analysis and BI dashboards to production-style ML pipelines and computer vision.
+
+What I care about most is building models people can trust: validation that matches real-world conditions, no data leakage, and results that hold up on new data rather than just on a leaderboard. I enjoy working in teams, explaining my choices clearly, and turning a model into something useful — a dashboard, an API or an application.
+
+Current interests: **machine learning on tabular data**, **computer vision**, and **NLP for African languages**.
 
 🏆 **National champion — Data Tour 2026 (Côte d'Ivoire)** with team OUTLIERS, Mobile Money fraud detection.
 
@@ -18,7 +22,7 @@ I like turning messy data into models people can trust: careful validation, no d
 
 ## 🌟 Featured projects
 
-### 🕵️ [Mobile Money Fraud Detection](https://github.com/donsfak/Portofolio/blob/main/case-studies/data-tour-2026-fraude-mobile-money.md) — 1st place, Data Tour 2026
+### 🕵️ [Mobile Money Fraud Detection](https://github.com/AMij0101982872/DATA_TOUR) — 1st place, Data Tour 2026
 Fraud detection on **~1.3M transactions** (~11% fraud, metric: PR-AUC) where the test set lay *in the future*.
 - Multi-window **temporal validation** instead of random cross-validation
 - Leak-free **out-of-fold target encoding** on account identity
@@ -26,6 +30,8 @@ Fraud detection on **~1.3M transactions** (~11% fraud, metric: PR-AUC) where the
 - Bootstrap of the score to separate real improvements from noise
 
 `Python` `LightGBM` `XGBoost` `CatBoost`
+
+📂 [Team repository](https://github.com/AMij0101982872/DATA_TOUR) · 📝 [Case study: the what and the why](https://github.com/donsfak/Portofolio/blob/main/case-studies/data-tour-2026-fraude-mobile-money.md)
 
 ### 👤 [FaceGuard](https://github.com/donsfak/FaceGuard) — real-time face recognition
 Webcam access control: detects every face, recognizes enrolled people, answers "Unknown" otherwise.
@@ -92,7 +98,7 @@ Incident and ticket management, customer complaint handling, and monitoring of O
 
 ## 📬 Contact
 
-- 🌐 **Portfolio**: [soro-falibeta-portofolio.vercel.app](https://soro-falibeta-portofolio.vercel.app)
+- 🌐 **Portfolio**: [falibeta-soro-portofolio.vercel.app](https://falibeta-soro-portofolio.vercel.app)
 - 💼 **LinkedIn**: [falibeta-soro](https://www.linkedin.com/in/falibeta-soro-8678b62a1/)
 - ✉️ **Email**: falibetasoro@gmail.com
 
